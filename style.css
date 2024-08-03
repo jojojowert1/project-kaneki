@@ -1,0 +1,92 @@
+body{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Cooper Black",sans-serif;
+    background-size: auto;
+    background-color: rgba(9, 8, 8, 0.95);
+}
+
+
+.avatar{
+    border-radius: 50%;
+    width: 350px;
+    box-shadow: 4px 4px 5px rgba(9, 8, 8, 0.65);
+}
+.container {
+
+    margin: 0 auto;
+    max-width: 80%;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgba(0, 0, 0, 0.32);
+    transition: 0.2s;
+}
+.card{
+
+   border: rgba(235, 237, 239, 0.71) 1px solid;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.bg1{
+    background-color: #888080;
+}
+.bg2{
+    background-color: #525764;
+}
+.bg3{
+    background-color: #4f3838;
+}
+.bg4{
+    background-color: #3e4b3a;
+}
+.bg5{
+    background-color: #3e2646;
+}
+.icon{
+    width:150px;
+    border-radius: 30%;
+}
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+a{
+    gap: 5px;
+}
+.img2{
+    width: 300px;
+    border-radius: 20%;
+}
+.img3{
+    width: 400px;
+    border-radius: 20%;
+}
+.gap{
+    margin-bottom: 25px;
+}
+.button{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    border:none;
+    border-radius:  10%;
+    background-color: #383b37;
+}
+.zagad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.input{
+    width: 450px;
+    height: 55px;
+    font-size: 30px;
+}
